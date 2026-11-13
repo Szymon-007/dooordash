@@ -2,9 +2,9 @@
 
 Kamera przy drzwiach, która sama decyduje, kogo wpuścić. Działa na Jetson Orin Nano z kamerą IMX462, napisana w Pythonie.
 
-Żeby wejść, trzeba przejść dwa kroki: kamera musi rozpoznać twarz domownika, a potem domownik pokazuje dłonią swój czteroznakowy kod. Sama twarz nie wystarczy, bo kamerę da się oszukać zdjęciem.
+Żeby wejść, trzeba przejść dwa kroki: kamera musi rozpoznać twarz domownika, a potem domownik pokazuje dłonią swój czteroznakowy kod. 
 
-## Na czym to stoi
+##
 
 - **Twarz** – system zna domowników i odróżnia ich od obcych.
 - **Kod z gestów** – każdy domownik ma własny kod, który pokazuje palcami do kamery.
