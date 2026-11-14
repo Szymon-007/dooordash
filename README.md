@@ -13,3 +13,8 @@ Kamera przy drzwiach, która sama decyduje, kogo wpuścić. Działa na Jetson Or
 - **Powiadomienia** – po każdej próbie na telefon właściciela idzie krótka wiadomość.
 - **Panel** – strona w sieci domowej do zarządzania domownikami i kodami oraz przeglądania dziennika.
 
+## Rejestr użycia LLM
+
+| Plik | Narzędzie | Do czego użyto i jak zweryfikowano |
+| --- | --- | --- |
+| `.github/workflows/ci.yml` | Claude | Treść zaproponowana przez Claude'a i omówiona linijka po linijce; przepisana ręcznie, wersje akcji sprawdzone w Releases, działanie potwierdzone zielonym przebiegiem pipeline'u. |
