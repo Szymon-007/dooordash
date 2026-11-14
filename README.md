@@ -4,6 +4,7 @@ Kamera przy drzwiach, która sama decyduje, kogo wpuścić. Działa na Jetson Or
 
 Żeby wejść, trzeba przejść dwa kroki: kamera musi rozpoznać twarz domownika, a potem domownik pokazuje dłonią swój czteroznakowy kod. 
 
+Wszystkie pliki w projekcie zostaly stworzone i napisane przez czlowieka z ewentualna pomoca ai, nie uzywano ctrl c ctrl v
 ##
 
 - **Twarz** – system zna domowników i odróżnia ich od obcych.
@@ -18,3 +19,4 @@ Kamera przy drzwiach, która sama decyduje, kogo wpuścić. Działa na Jetson Or
 | Plik | Narzędzie | Do czego użyto i jak zweryfikowano |
 | --- | --- | --- |
 | `.github/workflows/ci.yml` | Claude | Treść zaproponowana przez Claude'a i omówiona linijka po linijce; przepisana ręcznie, wersje akcji sprawdzone w Releases, działanie potwierdzone zielonym przebiegiem pipeline'u. |
+| `.github/workflows/release.yml` | Claude | Treść zaproponowana przez Claude'a i omówiona linijka po linijce; przepisana ręcznie, działanie sprawdzone próbnym tagiem `v0.0.1`. |
