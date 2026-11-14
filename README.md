@@ -4,7 +4,7 @@ Kamera przy drzwiach, która sama decyduje, kogo wpuścić. Działa na Jetson Or
 
 Żeby wejść, trzeba przejść dwa kroki: kamera musi rozpoznać twarz domownika, a potem domownik pokazuje dłonią swój czteroznakowy kod. 
 
-Cały projekt został wykonany bez robienia ctrl c ctrl v, wszystko za wyjatkiem readme bylo pisane przez człowieka, z ewentualna pomocą AI
+Wszystkie pliki w projekcie zostaly stworzone i napisane przez czlowieka z ewentualna pomoca ai, nie uzywano ctrl c ctrl v
 ##
 
 - **Twarz** – system zna domowników i odróżnia ich od obcych.
