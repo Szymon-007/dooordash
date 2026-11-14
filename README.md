@@ -19,3 +19,4 @@ Cały projekt został wykonany bez robienia ctrl c ctrl v, wszystko za wyjatkiem
 | Plik | Narzędzie | Do czego użyto i jak zweryfikowano |
 | --- | --- | --- |
 | `.github/workflows/ci.yml` | Claude | Treść zaproponowana przez Claude'a i omówiona linijka po linijce; przepisana ręcznie, wersje akcji sprawdzone w Releases, działanie potwierdzone zielonym przebiegiem pipeline'u. |
+| `.github/workflows/release.yml` | Claude | Treść zaproponowana przez Claude'a i omówiona linijka po linijce; przepisana ręcznie, działanie sprawdzone próbnym tagiem `v0.0.1`. |
